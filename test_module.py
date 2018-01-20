@@ -6,8 +6,11 @@ def test(arg):
 def test2(arg):
     print "You have entered : %s" % arg
 
+def moon():
+    test("m_arg")
+    test2("m_arg2")
+
 if __name__ == "__main__":
-    test("my_arg")
-    test2("my_arg")
+    moon()
     
 
