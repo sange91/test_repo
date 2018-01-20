@@ -10,7 +10,13 @@ def moon():
     test("m_arg")
     test2("m_arg2")
 
+def star():
+    print"running star func"
+    test("my_arg")
+    test2("my_arg")
+
+
 if __name__ == "__main__":
+    star()
     moon()
-    
 
