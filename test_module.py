@@ -6,8 +6,13 @@ def test(arg):
 def test2(arg):
     print "You have entered : %s" % arg
 
-if __name__ == "__main__":
+def star():
+    print"running star func"
     test("my_arg")
     test2("my_arg")
+
+
+if __name__ == "__main__":
+    star()
     
 
